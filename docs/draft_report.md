@@ -54,8 +54,21 @@ Contribution can be described as follow:
 
 2.  H-A 通信机制（良好的信息/意图传递），确保了 agents 透明性，有助于提高人与 agents 的理解和信任；
 
-- 有助于解决 attentional tunneling 问题
+**- 有助于解决 attentional tunneling 问题**
 
 1.  驾驶体验和安全性
 
 2.  。。。
+
+## Q & A
+
+1. why 层次型的设计？
+
+    - 为了更好地实现 HAC，HCopilot 需要将复杂的目标分解为一系列简单的子任务（HAC tasks）
+    - CoT or workflow
+    - 模块化设计有助于 HCopilot 的可扩展性和可维护性
+2. why language model？
+
+    - 语言模型是 HCopilot 的核心，因为它可以将全局观测转化为可解释的任务，进而控制座舱设备完成 HAC tasks。语言模型的可解释性有助于审计 HCopilot 的决策，进而确保驾驶安全。
+    - 语言模型的优势在于其可以处理多模态输入，例如：驾驶员的自然语言指令、生理和控制数据等，这有助于 HCopilot 从多个角度理解驾驶员的意图，进而生成更全面的任务。
+3. 需要说明的是，从生成 HAC tasks 到对座舱特定设备的控制仍存在巨大的 gap，因为涉及到座舱设备控制接口的细节，这已经超出了本文的研究范畴。HCockpit 聚焦于更通用、high-level 的 HAC tasks 生成和编排，故设计了简单的设备控制接口用于评估和演示。实现 HAC tasks 到座舱设备控制的无缝衔接需要统一、规范的接口，这需要行业同仁共同的努力。
