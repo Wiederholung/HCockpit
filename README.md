@@ -26,22 +26,23 @@ See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf) and [slides](./d
 
 3. Create a virtual environment and install the dependencies
 
-   Using `conda` (recommended):
+   - using `conda` (recommended):
 
-   ```bash
-   conda env create -f environment.yml
-   ```
+     ```bash
+     conda env create -f environment.yml
+     ```
 
-   ```bash
-   conda activate HCockpit
-   ```
+     ```bash
+     conda activate HCockpit
+     ```
 
-   or using `pip`:
+   - or using `pip`:
 
-   ```bash
-   # assuming you have activated a virtual environment named 'HCockpit'
-   pip install -r requirements.txt
-   ```
+     > assuming you have activated a virtual environment named `HCockpit`
+
+     ```bash
+     pip install -r requirements.txt
+     ```
 
 ### Usage
 
