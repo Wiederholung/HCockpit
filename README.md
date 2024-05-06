@@ -70,7 +70,7 @@ See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [slides](./docs
   scenario = scenarios[n]
   ```
 
-  Then run the notebook cell `Load Data` and `Main` again to see the results.
+  Then run the notebook cells `Load Data` and `Main` again to see the results.
 
 - If you want to test another prompt, modify this [markdown file](./src/prompt.md) and run the notebook cells including `Orchestrate Prompt` and below to see the changes.
 
