@@ -6,7 +6,7 @@ To assess the efficacy of HCockpit and garner a deeper understanding, this proje
 
 ![HCopilot](./docs/figures/workflow.png)
 
-See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf) and [slides](./docs/viva/Hu%20Yitong_2020213350_FinalViva.pdf) for more details.
+See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [slides](./docs/viva/Hu%20Yitong_2020213350_FinalViva.pdf) and other files in the [docs directory](./docs/) for more details.
 
 ## Quickstart
 
