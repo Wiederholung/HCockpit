@@ -44,6 +44,20 @@ See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [slides](./docs
      pip install -r requirements.txt
      ```
 
+4. Set up the [OpenAI API key](https://platform.openai.com/api-keys)
+
+   - create a `.env` file in the `HCockpit/src` directory, add the following content:
+
+     ```shell
+     OPENAI_API_KEY=sk-xxxxxx
+     ```
+
+   - or set a **temporary** environment variable via the terminal:
+
+     ```bash
+     export OPENAI_API_KEY="sk-xxxxxx"
+     ```
+
 ### Usage
 
 - For a quick test, you can directly run all cells in the [notebook](./src/hcopilot.ipynb) to see a demo in the `chang_lane` scenario.
