@@ -21,7 +21,7 @@ See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [slides](./docs
 2. Navigate to the project directory
 
    ```bash
-   cd HCockpit/src
+   cd HCockpit/
    ```
 
 3. Create a virtual environment and install the dependencies
@@ -46,10 +46,10 @@ See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [slides](./docs
 
 4. Set up the [OpenAI API key](https://platform.openai.com/api-keys)
 
-   - create a `.env` file in the `HCockpit/src` directory, add the following content:
+   - create a `.env` file in the `HCockpit/` directory, and add the following content:
 
      ```shell
-     OPENAI_API_KEY=sk-xxxxxx
+     OPENAI_API_KEY="sk-xxxxxx"
      ```
 
    - or set a **temporary** environment variable via the terminal:
@@ -72,6 +72,6 @@ See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [slides](./docs
 
   Then run the notebook cells `Load Data` and `Main` again to see the results.
 
-- If you want to test another prompt, modify this [markdown file](./src/prompt.md) and run the notebook cells including `Orchestrate Prompt` and below to see the changes.
+- If you want to test another prompt, modify this [markdown file](./hcopilot_workspace/config/prompt.md) and run the notebook cells including `Orchestrate Prompt` and below to see the changes.
 
 - See the [notebook](./src/hcopilot.ipynb) for more detailed instructions on how to use HCockpit.
