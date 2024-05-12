@@ -1,58 +1,57 @@
 # HCockpit
 
-HCockpit is a sophisticated agent architecture designed to enhance situation awareness in automotive cockpit environments. HCockpit integrates cutting-edge large multimodal models (LMMs) to facilitate effective communication and collaboration between human drivers and autonomous driving systems.
+## Overview
 
-To assess the efficacy of HCockpit and garner a deeper understanding, this project developed HCopilot as an AI copilot agent following the HCockpit architecture and tested HCopilot in the GTAV simulation environment.
+HCockpit is a sophisticated agent architecture designed to enhance situation awareness in automotive cockpit environments. It integrates advanced Large Multimodal Models (LMMs) to improve communication and collaboration between human drivers and autonomous driving systems.
 
-![HCopilot](./docs/figures/workflow.png)
+This project introduces HCopilot, an AI copilot agent based on the HCockpit architecture, and evaluates its performance using the GTAV simulation environment.
 
-See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [slides](./docs/viva/Hu%20Yitong_2020213350_FinalViva.pdf) and other files in the [docs directory](./docs/) for more details.
+![HCopilot Workflow](./docs/figures/workflow.png)
 
-## Quickstart
+For more detailed insights, refer to the [final report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [presentation slides](./docs/viva/Hu%20Yitong_2020213350_FinalViva.pdf), and other resources in the [docs directory](./docs/).
+
+## Getting Started
 
 ### Installation
 
-1. Clone the repository
+Follow these steps to set up HCockpit on your local machine:
+
+1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/Wiederholung/HCockpit.git
    ```
 
-2. Navigate to the project directory
+2. **Navigate to the Project Directory**
 
    ```bash
    cd HCockpit/
    ```
 
-3. Create a virtual environment and install the dependencies
+3. **Set Up the Environment and Dependencies**
 
-   - using `conda` (recommended):
+   - Using Conda (Recommended):
 
      ```bash
      conda env create -f environment.yml
-     ```
-
-     ```bash
      conda activate HCockpit
      ```
 
-   - or using `pip`:
-
-     > assuming you have activated a virtual environment named `HCockpit`
+   - Using Pip (Ensure you have created and activated a virtual environment named `HCockpit`):
 
      ```bash
      pip install -r requirements.txt
      ```
 
-4. Set up the [OpenAI API key](https://platform.openai.com/api-keys)
+4. **Configure the [OpenAI API Key](https://platform.openai.com/api-keys)**
 
-   - create a `.env` file in the `HCockpit/` directory, and add the following content:
+   - Create a `.env` file in the `HCockpit/` directory and add your API key:
 
      ```shell
      OPENAI_API_KEY="sk-xxxxxx"
      ```
 
-   - or set a **temporary** environment variable via the terminal:
+   - Alternatively, set a **temporary** environment variable:
 
      ```bash
      export OPENAI_API_KEY="sk-xxxxxx"
@@ -60,18 +59,17 @@ See the [report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [slides](./docs
 
 ### Usage
 
-- For a quick test, you can directly run all cells in the [notebook](./src/hcopilot.ipynb) to see a demo in the `chang_lane` scenario.
+- **Quick Demo**: Run all cells in the [notebook](./src/hcopilot.ipynb) to see a demo in the `change_lane` scenario.
 
-- To test other scenarios, you only need to change the `scenario` variable in the `Load Data` cell to one of the following scenarios:
+- **Testing Different Scenarios**: Modify the `scenario` variable in the `Load Data` cell of the notebook:
 
   ```python
   scenarios = ["change_lane", "turn_right-r", "turn_right-l", "dead_zone", "dazzle", "phone"]
-  # change driving scenario here
-  scenario = scenarios[n]
+  scenario = scenarios[n]  # Change 'n' to select the scenario
   ```
 
-  Then run the notebook cells `Load Data` and `Main` again to see the results.
+  After setting the scenario, execute the `Load Data` and `Main` cells again.
 
-- If you want to test another prompt, modify this [markdown file](./hcopilot_workspace/config/prompt.md) and run the notebook cells including `Orchestrate Prompt` and below to see the changes.
+- **Customizing Prompts**: To test different prompts, edit the [prompt markdown file](./hcopilot_workspace/config/prompt.md) and rerun the relevant notebook cells starting from `Orchestrate Prompt`.
 
-- See the [notebook](./src/hcopilot.ipynb) for more detailed instructions on how to use HCockpit.
+For further details on how to utilize HCockpit, consult the [notebook guide](./src/hcopilot.ipynb).
