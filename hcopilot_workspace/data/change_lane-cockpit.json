@@ -6,9 +6,9 @@
   "vehicle": [
     {
       "id": "v-ego",
-      "speed": { "value": 5.67, "unit": "m/s", "valid": true },
-      "acceleration": { "value": 0.5, "unit": "m/s^2", "valid": true },
-      "direction": { "value": 90, "unit": "degrees", "valid": true },
+      "speed": { "value": 5.67, "unit": "m/s" },
+      "acceleration": { "value": 0.5, "unit": "m/s^2" },
+      "direction": { "value": 90, "unit": "degrees" },
       "location": {
         "value": { "x": 0, "y": 0, "z": 0 },
         "unit": "meters",
@@ -22,9 +22,9 @@
     },
     {
       "id": "v-001",
-      "speed": { "value": 3.25, "unit": "m/s", "valid": true },
-      "acceleration": { "value": -0.2, "unit": "m/s^2", "valid": true },
-      "direction": { "value": 270, "unit": "degrees", "valid": true },
+      "speed": { "value": 3.25, "unit": "m/s" },
+      "acceleration": { "value": -0.2, "unit": "m/s^2" },
+      "direction": { "value": 270, "unit": "degrees" },
       "location": {
         "value": { "x": -50, "y": 30, "z": 0 },
         "unit": "meters",
@@ -44,6 +44,6 @@
   "human_driver": {
     "id": "d-ego",
     "control": { "W": true, "A": false, "S": false, "D": true },
-    "voice_cmd": ""
+    "voice_cmd": "null"
   }
 }
