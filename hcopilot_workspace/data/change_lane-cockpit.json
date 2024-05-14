@@ -24,9 +24,9 @@
       "id": "v-001",
       "speed": { "value": 3.25, "unit": "m/s" },
       "acceleration": { "value": -0.2, "unit": "m/s^2" },
-      "direction": { "value": 270, "unit": "degrees" },
+      "direction": { "value": 117, "unit": "degrees" },
       "location": {
-        "value": { "x": -50, "y": 30, "z": 0 },
+        "value": { "x": -3, "y": 4, "z": 0 },
         "unit": "meters",
         "valid": true
       },
@@ -35,7 +35,7 @@
         "unit": "meters"
       },
       "relative_distance": {
-        "value": 58.51,
+        "value": 5.00,
         "unit": "meters"
       }
     }
