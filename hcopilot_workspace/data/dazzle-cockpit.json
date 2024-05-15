@@ -1,0 +1,49 @@
+{
+  "timestamp": "2024-04-18T04:50:00Z",
+  "timezone": "UTC",
+  "data_version": "1.0",
+
+  "vehicle": [
+    {
+      "id": "v-ego",
+      "speed": { "value": 5.03, "unit": "m/s" },
+      "acceleration": { "value": 0.5, "unit": "m/s^2" },
+      "direction": { "value": 90, "unit": "degrees" },
+      "location": {
+        "value": { "x": 0, "y": 0, "z": 0 },
+        "unit": "meters",
+        "valid": true
+      },
+      "bounding_box": {
+        "value": { "width": 1.8, "length": 4.3, "height": 1.5 },
+        "unit": "meters"
+      },
+      "relative_distance": { "value": 0, "unit": "meters" }
+    },
+    {
+      "id": "v-001",
+      "speed": { "value": 3.25, "unit": "m/s" },
+      "acceleration": { "value": -0.2, "unit": "m/s^2" },
+      "direction": { "value": 338, "unit": "degrees" },
+      "location": {
+        "value": { "x": -5, "y": 5, "z": 0 },
+        "unit": "meters",
+        "valid": true
+      },
+      "bounding_box": {
+        "value": { "width": 1.8, "length": 4.3, "height": 1.5 },
+        "unit": "meters"
+      },
+      "relative_distance": {
+        "value": 7.07,
+        "unit": "meters"
+      }
+    }
+  ],
+
+  "human_driver": {
+    "id": "d-ego",
+    "control": { "W": true, "A": true, "S": false, "D": false },
+    "voice_cmd": "null"
+  }
+}

@@ -19,25 +19,6 @@
         "unit": "meters"
       },
       "relative_distance": { "value": 0, "unit": "meters" }
-    },
-    {
-      "id": "v-001",
-      "speed": { "value": 3.25, "unit": "m/s" },
-      "acceleration": { "value": -0.2, "unit": "m/s^2" },
-      "direction": { "value": 117, "unit": "degrees" },
-      "location": {
-        "value": { "x": -3, "y": 4, "z": 0 },
-        "unit": "meters",
-        "valid": true
-      },
-      "bounding_box": {
-        "value": { "width": 1.8, "length": 4.3, "height": 1.5 },
-        "unit": "meters"
-      },
-      "relative_distance": {
-        "value": 5.00,
-        "unit": "meters"
-      }
     }
   ],
 

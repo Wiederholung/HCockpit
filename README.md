@@ -8,7 +8,7 @@ This project introduces HCopilot, an AI copilot agent based on the HCockpit arch
 
 ![HCopilot Workflow](./docs/figures/workflow.png)
 
-For more detailed insights, refer to the [final report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [presentation slides](./docs/viva/Hu%20Yitong_2020213350_FinalViva.pdf), and other resources in the [docs directory](./docs/).
+For more detailed insights, refer to the [final report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [presentation slides](https://gamma.app/docs/Design-and-Development-of-a-Human-Agent-Collaboration-Model-for-S-j4v4nydhp1x4dgk), and other resources in the [docs directory](./docs/).
 
 ## Getting Started
 
@@ -43,19 +43,11 @@ Follow these steps to set up HCockpit on your local machine:
      pip install -r requirements.txt
      ```
 
-4. **Configure the [OpenAI API Key](https://platform.openai.com/api-keys)**
+4. **Configure the Environment Variables**
 
-   - Create a `.env` file in the `HCockpit/` directory and add your API key:
+   - Modify the file [`.env.template`](./.env.template) following the instructions inside, and save it as `.env`.
 
-     ```shell
-     OPENAI_API_KEY="sk-xxxxxx"
-     ```
-
-   - Alternatively, set a **temporary** environment variable:
-
-     ```bash
-     export OPENAI_API_KEY="sk-xxxxxx"
-     ```
+   - Alternatively, set environment variables according to the [`.env.template`](./.env.template) file.
 
 ### Usage
 
