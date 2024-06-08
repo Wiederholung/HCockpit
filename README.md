@@ -8,7 +8,7 @@ This project introduces HCopilot, an AI copilot agent based on the HCockpit arch
 
 ![HCopilot Workflow](./docs/figures/workflow.png)
 
-For more detailed insights, refer to the [final report](./docs/Hu%20Yitong_2020213350_FinalReport.pdf), [presentation slides](https://gamma.app/docs/Design-and-Development-of-a-Human-Agent-Collaboration-Model-for-S-j4v4nydhp1x4dgk), and other resources in the [docs directory](./docs/).
+For more detailed insights, refer to the [final report](./docs/Hu%20Yitong_2020213350_FinalReport_Anonymity.pdf), [presentation slides](https://gamma.app/docs/Design-and-Development-of-a-Human-Agent-Collaboration-Model-for-S-j4v4nydhp1x4dgk), and other resources in the [docs directory](./docs/).
 
 ## Getting Started
 
