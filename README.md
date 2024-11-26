@@ -33,14 +33,14 @@ Follow these steps to set up HCockpit on your local machine:
    - Using Conda (Recommended):
 
      ```bash
-     conda env create -f environment.yml
-     conda activate HCockpit
+     conda env create -f environment.yaml
+     conda activate hcockpit
      ```
 
    - Using Pip:
 
      ```bash
-     # Ensure you are using Python 3.10.14 and have activated a virtual environment named 'HCockpit'
+     # Ensure you are using Python 3.10.14 and have activated a virtual environment named 'hcockpit'
      pip install -r requirements.txt
      ```
 
